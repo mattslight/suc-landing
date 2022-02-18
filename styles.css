@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "CerebriSansHeavy";
+    src: url("fonts/CerebriSans-Heavy.woff") format('woff');
+}
+
+@font-face {
+    font-family: "ClaudeSans";
+    src: url("fonts/ClaudeSans-Bold-Italic-Regular.woff") format('woff');
+}
+
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+  background-color: black;
+  color: white;
+  font-family:  sans-serif;
+  background-image: url("img/shake-up-club-smoothies_1600x900.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1,h2,h3 {
+  font-family: "CerebriSansHeavy", serif;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+h1 {
+  text-transform: uppercase;
+  padding-top: 10vh;
+  margin-bottom: 0.5em;
+  line-height: 1.2em;
+  font-size: 48px;
+}
+h2 {
+  font-size: 26px;
+  line-height: 1.5em;
+}
+h3 {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+#landingBox {
+  margin: 0 auto;
+  width: 900px;
+  margin-top: 20vh;
+}
+
+@media screen and (max-width : 960px) {
+  #landingBox {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 20vh;
+  }
+  body{
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width : 600px) {
+  #landingBox {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 10vh;
+  }
+  body{
+    padding: 30px;
+  }
+  #logo {
+    float: right;
+    width: 62px;
+  }
+  h2 { font-size: 24px; }
+  h3 { font-size: 18px; }
+}
+
+#logo {
+  float: right;
+}
+#email {
+  font-family: "ClaudeSans", cursive;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  height: 45px;
+  padding-left: 10px
+}
+.button {
+  padding: 8px 32px;
+  font-size: 14px;
+  height: 45px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #FF4F81;
+  border-radius: 8px;
+  font-family: "CerebriSansHeavy", serif;
+  color: white;
+  border: none;
+  outline: none;
+}
+.button:hover {
+  background-color: #ff729a;
+}
+
+input:focus{
+    outline: 1px solid #555;
+}
+
+.script {
+  font-family: "Kaushan Script", cursive;
+  color: #FF4F81;
+  text-transform: lowercase;
+  font-size: 1.4em;
+  font-weight: 400;
+
+}
+
+.emphasis {
+  font-family: "ClaudeSans", cursive;
+  color: #FF4F81;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+.free-swag {
+  font-family: "ClaudeSans", cursive;
+  font-size: 20px;
+  margin-top: 0.5em;
+}
