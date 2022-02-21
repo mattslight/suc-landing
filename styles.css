@@ -124,18 +124,17 @@ h3 {
     color: initial;
 }
 .button:hover, .buttonAlt:hover  {
-  background-color: #ffe3ee;
+  background-color: #ffe3ff;
+  color: black;
 }
 .buttonAlt {
   color: black;
   background-color: white;
 }
 .buttonAlt:hover  {
+  color: white;
   background-color: black;
   border: 3px solid white;
-}
-.buttonAlt:hover > a {
-  color: white;
 }
 
 input:focus{
