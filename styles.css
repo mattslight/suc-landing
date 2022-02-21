@@ -80,6 +80,9 @@ h3 {
   body {
     padding: 30px;
   }
+  h1 {
+    padding-top: 100px;
+  }
   #shareBody #links {
     text-align: right;
   }
