@@ -95,7 +95,7 @@ h3 {
   float: right;
 }
 #email {
-  font-family: "ClaudeSans", cursive;
+  font-family: "CerebriSansHeavy", serif;
   font-size: 20px;
   border-radius: 8px;
   border: none;
@@ -105,10 +105,26 @@ h3 {
   height: 45px;
   padding-left: 10px
 }
+#email::placeholder {
+  font-family: "ClaudeSans", cursive;
+}
+#email::-webkit-input-placeholder {
+  font-family: "ClaudeSans", cursive;
+}
+#email:-ms-input-placeholder {
+  font-family: "ClaudeSans", cursive;
+}
+#email:-moz-placeholder {
+  font-family: "ClaudeSans", cursive;
+}
+#email::-moz-placeholder {
+  font-family: "ClaudeSans", cursive;
+}
+
 .button, .buttonAlt {
   padding: 8px 32px;
   font-size: 14px;
-  height: 45px;
+  min-height: 45px;
   letter-spacing: 2px;
   text-transform: uppercase;
   background-color: #FF4F81;
