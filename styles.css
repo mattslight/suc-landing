@@ -24,6 +24,10 @@ body {
   background-position: center;
 }
 
+#shareBody {
+  background-image: url("img/shake-up-club-personal_blender_1600x800.jpg");
+}
+
 h1,h2,h3 {
   font-family: "CerebriSansHeavy", serif;
   margin: 0;
@@ -67,10 +71,17 @@ h3 {
   #landingBox {
     margin: 0 auto;
     width: 100%;
-    margin-top: 10vh;
+    margin-top: 10px;
   }
-  body{
+  #shareBody {
+    background-position-x: 75%;
+    background-position-y: 260px;
+  }
+  body {
     padding: 30px;
+  }
+  #shareBody #links {
+    text-align: right;
   }
   #logo {
     float: right;
@@ -94,7 +105,7 @@ h3 {
   height: 45px;
   padding-left: 10px
 }
-.button {
+.button, .buttonAlt {
   padding: 8px 32px;
   font-size: 14px;
   height: 45px;
@@ -106,9 +117,25 @@ h3 {
   color: white;
   border: none;
   outline: none;
+  margin-right: 10px;
 }
-.button:hover {
-  background-color: #ff729a;
+.button > a, .buttonAlt > a {
+  text-decoration: none;
+    color: initial;
+}
+.button:hover, .buttonAlt:hover  {
+  background-color: #ffe3ee;
+}
+.buttonAlt {
+  color: black;
+  background-color: white;
+}
+.buttonAlt:hover  {
+  background-color: black;
+  border: 3px solid white;
+}
+.buttonAlt:hover > a {
+  color: white;
 }
 
 input:focus{
