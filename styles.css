@@ -137,6 +137,7 @@ h3 {
   color: white;
   border: none;
   outline: none;
+  -webkit-appearance: none;
 }
 .button > a, .buttonAlt > a {
   text-decoration: none;
